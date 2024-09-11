@@ -31,6 +31,7 @@ interface Telegram {
       onEvent(eventType: string, callback: Function): void;
       offEvent(eventType: string, callback: Function): void;
       sendData(data: string): void;
+      ready(): void;
     };
   }
   
